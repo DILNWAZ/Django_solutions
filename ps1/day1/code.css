@@ -1,0 +1,19 @@
+body{
+    background-color: cornflowerblue;
+}
+h1{
+    color: brown;
+}
+h2{
+    color: chocolate;
+}
+a{
+    color: blueviolet;
+}
+form{
+    background-color: rgb(46, 133, 136);
+    width: 30%;
+}
+button{
+    color: blueviolet;
+}

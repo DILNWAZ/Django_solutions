@@ -1,0 +1,160 @@
+.mpae{
+    background-color: #9999;
+}
+
+.signup{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    margin-top: 123px;
+}
+
+.upheading{
+    display: flex;
+    /* background-color: #9999; */
+    justify-content: center;
+    align-items: center;
+}
+
+.upheading p{
+
+    margin-top: 26px;
+    margin-left: 200px;
+}
+.upheading h2{
+    margin-right: 150px;
+}
+
+.fullone
+{
+     background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 50px 50px 25px;
+    font-family: Roboto-Regular, 'Helvetica Neue', Helvetica, Tahoma, Arial, Sans-serif;
+    
+}
+
+.fstone{
+    display: flex;
+    flex-direction: column;
+    width: 335px;
+    float: left;
+}
+
+.fstone label{
+    font-size: 16px;
+    height: 15px;
+    line-height: 15px;
+    overflow: hidden;
+    color: #424242;
+    display: block;
+    margin-bottom: 5px;
+}
+.fstone input{
+    box-sizing: border-box;
+    width: 114%;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    height: 40px;
+    padding: 0 35px 0 10px;
+    margin-bottom: 2px;
+    outline: none;
+}
+
+.fstone select{
+    width: 24%;
+    border: 1px solid #ddd;
+    height: 40px;
+    outline: none;
+}
+
+.secone{
+    margin-left: 100px;
+    width: 305px;
+    float: right;
+}
+
+.secone label{
+    font-size: 16px;
+    height: 15px;
+    line-height: 15px;
+    overflow: hidden;
+    color: #424242;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.secone .name{
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    height: 40px;
+    padding: 0 35px 0 10px;
+    margin-bottom: 13px;
+    outline: none
+}
+
+.secone .check{
+   font-size: 12px;
+}
+
+.secone .sup{
+
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid orangered;
+    background-color: orangered;
+    font-size: 14px;
+    height: 40px;
+    padding: 0 35px 0 10px;
+    margin-bottom: 13px;
+    outline: none
+    
+}
+
+.secone .acpt {
+    font-size: 12px;
+}
+
+.secone .acpt a{
+
+    text-decoration: none;
+}
+
+.secone .swth{
+    font-size: 12px;
+}
+
+.secone .but{
+    display: flex;
+}
+
+.secone .but .fb{
+    font-weight: 700;
+    color: #ddd;
+    box-sizing: border-box;
+    width: 50%;
+    border: 1px solid rgb(54, 54, 236);
+    background-color: rgb(54, 54, 236);
+    font-size: 14px;
+    height: 40px;
+    outline: none
+}
+
+.secone .but .gl{
+    margin-left: 10px;
+    font-weight: 700;
+    color: #ddd;
+    box-sizing: border-box;
+    width: 50%;
+    border: 1px solid red;
+    background-color: red;
+    font-size: 14px;
+    height: 40px;
+    outline: none
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign Up Page</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f4f4f4; text-align: center;">
+
+    <div style="margin-top: 50px;">
+        <h2 style="color: #333;">Sign Up</h2>
+        <form action="{% url 'signup' %}" method="post" style="background-color: white; padding: 20px; border-radius: 10px; width: 300px; margin: 0 auto; box-shadow: 0px 0px 10px rgba(0,0,0,0.1);">
+            {% csrf_token %}
+            <label for="fullName" style="display: block; text-align: left; margin-bottom: 10px; color: #333;">Full Name:</label>
+            <input type="text" id="fullName" name="full_name" style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 5px;">
+            
+            <label for="gmail" style="display: block; text-align: left; margin-bottom: 10px; color: #333;">Gmail:</label>
+            <input type="email" id="gmail" name="email" style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 5px;">
+            
+            <label for="password" style="display: block; text-align: left; margin-bottom: 10px; color: #333;">Password:</label>
+            <input type="password" id="password" name="password" style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 5px;">
+            
+            <input type="submit" value="Sign Up" style="background-color: #28a745; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; width: 100%;">
+        
+        </form>
+    </div>
+
+</body>
+</html>

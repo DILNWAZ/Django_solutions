@@ -1,0 +1,78 @@
+.bdy{
+    background-color: #9999;
+}
+.container{
+    /* background-color: #ddd; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 400px; */
+    
+}
+.container .side1 #formGroupExampleInput{
+    box-sizing: border-box;
+    width: 300px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    height: 40px;
+    padding: 0 35px 0 10px;
+    margin-bottom: 2px;
+    outline: none;
+
+}
+
+.container .side1 #formGroupExampleInput2{
+    box-sizing: border-box;
+    width: 300px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    height: 40px;
+    padding: 0 35px 0 10px;
+    margin-bottom: 2px;
+    outline: none;
+}
+
+.container .side1 a{
+    text-decoration: none;
+    font-size: 12px;
+    margin-left: 188px;
+}
+
+.container .side1 .btn-warning{
+    margin-top: 50px;
+    width: 19%;
+    position: absolute;
+    left: 59%;
+    top: 84px;
+    height: 48px;
+    border: 3px solid rgb(219, 219, 70);
+
+}
+
+.container .side2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.container .side2 p{
+
+    margin-top: 71px;
+    margin-left: 8px;
+    font-size: 12px;
+}
+
+.container .side2 .btn-primary{
+    margin-top: -3px;
+    width: 268%;
+    height: 48px;
+    border: 3px solid rgb(46, 46, 201);
+}
+
+.container .side2 .btn-danger{
+    margin-top: 3px;
+    width: 268%;
+    height: 48px;
+    border: 3px solid rgb(202, 69, 69);
+}
+

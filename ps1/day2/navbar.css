@@ -1,0 +1,67 @@
+.navbar nav{
+    background-color: aquamarine;
+    height: 50px;
+    display: flex;
+}
+
+.navbar ul{
+    display: flex;
+
+}
+.navbar li{
+    display: flex;
+    margin-right: 100px;
+}
+.navbar a{
+   text-decoration: none; 
+   color: black;
+}
+.navbar form{
+    display: flex;
+    margin-left: 500px;
+}
+
+.subject th{
+    border: 2px solid aquamarine;
+    padding: 20px;
+    padding: 20px 70px;
+    
+}
+.subject table{
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 50px;
+    
+    
+}
+.subject td{
+    border: 2px solid aquamarine;
+    padding: 20px;
+    text-align: center;
+}
+.subject tr:nth-child(even){
+    background-color: aquamarine;
+}
+#page2{
+    background-color: azure;
+}
+.welcome p{
+    margin-top: 34px;
+    padding-left: 170px
+}
+.welcome{
+    display: flex;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    flex
+}
+.mrg{
+    display: flex;
+    justify-content: center;
+   
+}
+.sinup .fom {
+    background-color:white;
+}
