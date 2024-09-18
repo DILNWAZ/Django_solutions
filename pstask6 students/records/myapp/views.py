@@ -193,3 +193,5 @@ def update_course(request, course_id):
             return JsonResponse(serializer.errors,status=400)
         
     return HttpResponse(status=405)
+
+#this is my code
